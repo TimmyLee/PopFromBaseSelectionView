@@ -7,5 +7,4 @@
 2. 显示
 [pop showInView: ]
 
-3. 退出
-- (void)cancelPickerView;
+3. 退出 - (void)cancelPickerView;
