@@ -200,7 +200,7 @@
     [self showInView:view];
     
     [self.mPickerView selectRow:row inComponent:component animated:NO];
-    
+    [self.mPickerView reloadComponent:component];
 }
 
 - (void)cancelPickerView
